@@ -30,6 +30,12 @@ public class UserService {
 		repo.deleteById(userid);
 
 	}
+
+
+	public void deleteAllUsers() {
+		repo.deleteAll();
+		
+	}
 	
 }
 
